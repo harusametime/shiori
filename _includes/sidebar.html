@@ -16,4 +16,8 @@
 
   <p><a href="https://twitter.com/harusametime" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true" data-dnt="true" data-size="large">Follow @harusametime</a></p>
 
+<h1>Recent Posts</h1>
+{% for post in site.posts offset:1 limit:2 %}
+{% endfor %}
 </div>
+
